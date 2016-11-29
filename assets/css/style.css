@@ -650,8 +650,14 @@ footer p {
 	.hero-content div h1 {
 	    font-size: 1.8em;
 	}
+	.profile-pic {
+	    display: none;
+	}
+	.profile-about {
+	    width: 100%;
+	}
 	.about {
-	    padding: 10px 25px 0 20px;
+	    padding: 20px 0 0;
 	}
 	.left-col {
 	    width: 90%;
