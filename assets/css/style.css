@@ -665,5 +665,8 @@ footer p {
 	.quote {
 	    font-size: 1em;
 	}
+	footer p {
+		font-size: 0.8em;
+	}
 }
 
