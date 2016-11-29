@@ -476,7 +476,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .five {
-	background-image: url("../img/rejd.jpg");
+	background-image: url("../img/rejd.JPG");
 }
 
 .six {
@@ -589,18 +589,6 @@ footer p {
 
 .git {
 	background: url("../img/git.png") center center no-repeat;
-}
-
-.plus {
-	background: url("../img/plus.png") center center no-repeat;
-}
-
-.dribble {
-	background: url("../img/dribble.png") center center no-repeat;
-}
-
-.linkedin {
-	background: url("../img/linkedin.png") center center no-repeat;
 }
 
 @media screen and (max-width: 768px) {
