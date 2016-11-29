@@ -3,11 +3,6 @@ body {
 	overflow-x: hidden;
 }
 
-body,
-html {
-	width: 100%;
-}
-
 h1 {
 	color:  #556366;
 	font-size: 1.875em;/* Approximation due to font substitution */
