@@ -51,7 +51,7 @@ p.block {
 a,
 a:hover {
 	color: #2ecc71;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 .grey {
@@ -223,35 +223,28 @@ color:  #ffffff;
     padding: 50px 250px 50px 70px;
 }
 
-.about div.row {
-	width: 100%
+.aff-act-section {
+	display: flex;
+    padding: 10px 250px 50px 70px;
+    flex-direction: column;
+    text-align: center;
 }
 
-.roles {
+.aff-act {
 	display: flex;
 	flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
 }
 
-.profile {
-	background-image: url("../img/profile.jpg");
-    padding-bottom: 40.7%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.role {
-	padding: 0 20px;
+.affiliations,
+.activities {
+    display: flex;
 }
 
 .icon {
 	width: 41px;
 	height: 41px;
-	margin-top: 25px;
-}
-
-.world {
-	background: url("../img/world-icon.png") no-repeat;
 }
 
 .pencil {
@@ -262,9 +255,43 @@ color:  #ffffff;
 	background: url("../img/people-icon.png") no-repeat;
 }
 
+.profile {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.profile-pic {
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 33%;
+}
+
+.profile-about {
+    width: 67%;
+}
+
+/*.about div.row {
+	width: 100%
+}
+
+.roles {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.role {
+	padding: 0 20px;
+}
+
+.world {
+	background: url("../img/world-icon.png") no-repeat;
+}
+
 .curly {
 	background: url("../img/curly-icon.png") no-repeat;
-}
+}*/
 
 /* --- SKILLS --- */
 .skills {
@@ -342,11 +369,11 @@ progress[value]::-webkit-progress-value {
 }
 
 /* --- AFFILIATIONS --- */
-.affiliations {
+/*.affiliations {
 	padding: 4em 0;
 	display: flex;
 	justify-content: center;
-}
+}*/
 
 /* --- QUOTE SLIDE --- */
 #carousel-b {
@@ -546,8 +573,8 @@ footer p {
 	background: url("../img/fb.png") center center no-repeat;
 }
 
-.pinterest {
-	background: url("../img/pin.png") center center no-repeat;
+.git {
+	background: url("../img/git.png") center center no-repeat;
 }
 
 .plus {
@@ -564,10 +591,6 @@ footer p {
 
 horizontal lines {
 	color: #cccccc;
-}
-
-footer a {
-	background-color: #252f31;
 }
 
 footer b {
