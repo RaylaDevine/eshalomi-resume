@@ -633,6 +633,9 @@ footer p {
 	p.block {
     	margin: 0 auto;
 	}
+	.education {
+	padding-bottom: 0;
+	}	
 	.experience ul {
     	text-align: left;
 	}
