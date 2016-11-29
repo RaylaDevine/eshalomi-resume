@@ -176,6 +176,10 @@ nav.navbar {
 	background-color: #252e30;
 }
 
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
 nav.navbar li {
 	font-size: 1em;
 	font-weight: 700;
