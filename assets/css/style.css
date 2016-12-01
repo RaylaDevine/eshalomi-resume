@@ -657,6 +657,9 @@ footer p {
 	.hero-content div h1 {
 	    font-size: 1.8em;
 	}
+	.navbar-nav {
+		background-color: #252e30;
+	}
 	.profile-pic {
 	    display: none;
 	}
