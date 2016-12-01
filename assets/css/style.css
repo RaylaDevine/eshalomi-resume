@@ -675,6 +675,9 @@ footer p {
 	.right-col {
     	width: 90%;
 	}
+	p.block {
+    	width: 35%;
+	}
 	#carousel-b div.carousel-inner {
 		height: 85%;
 	}
