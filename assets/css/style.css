@@ -237,6 +237,10 @@ color:  #ffffff;
     margin-top: 20px;
 }
 
+#about {
+	margin-top: 50px;
+}
+
 .about {
     padding: 50px 250px 50px 70px;
 }
@@ -322,34 +326,8 @@ color:  #ffffff;
     padding-bottom: 1em;
 }
 
-progress[value] {
-    /* Get rid of the default appearance */
-    -webkit-appearance: none;
-    
-    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
-    border: none;
-    
-    /* Add dimensions */
-    width: 100%; height: 20px;
-    
-    /* Although firefox doesn't provide any additional pseudo class to style the progress element container, any style applied here works on the container. */
-      
-    
-    /* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
-    color: royalblue;
-    
-    position: relative;
-    margin: 0 0 1.5em; 
-}
-
-progress[value]::-webkit-progress-bar {
-    background-color:  #f2f2f1;
-}
-
-progress[value]::-webkit-progress-value {
-    position: relative;
-    background-color:  #2ecc71;
-    background-size: 35px 20px, 100% 100%, 100% 100%;
+.skills h2 {
+	color: #2ecc71
 }
 
 /* --- RESUME --- */
