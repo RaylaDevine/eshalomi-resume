@@ -489,15 +489,15 @@ progress[value]::-webkit-progress-value {
 }
 
 .four {
-	background-image: url("../img/homescreen.PNG");
+	background-image: url("../img/homescreen.png");
 }
 
 .five {
-	background-image: url("../img/rejd.jpg");
+	background-image: url("../img/rejd.JPG");
 }
 
 .six {
-	background-image: url("../img/colorfy.PNG");
+	background-image: url("../img/colorfy.png");
 }
 
 /* --- CONTACT --- */
