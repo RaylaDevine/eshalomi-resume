@@ -430,6 +430,19 @@ progress[value]::-webkit-progress-value {
 	font-style: normal;
 }
 
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+	display: none;
+    top: 75%;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	display: none;
+}
+
 /* --- PORTFOLIO --- */
 .portfolio {
     text-align: center;
@@ -476,15 +489,15 @@ progress[value]::-webkit-progress-value {
 }
 
 .four {
-	background-image: url("../img/homescreen.png");
+	background-image: url("../img/homescreen.PNG");
 }
 
 .five {
-	background-image: url("../img/rejd.JPG");
+	background-image: url("../img/rejd.jpg");
 }
 
 .six {
-	background-image: url("../img/colorfy.png");
+	background-image: url("../img/colorfy.PNG");
 }
 
 /* --- CONTACT --- */
@@ -587,17 +600,32 @@ footer p {
 	background: url("../img/twitter.png") center center no-repeat;
 }
 
-.linkedin {
-	background: url("../img/linkedin.png") center center no-repeat;
+.fb {
+	background: url("../img/fb.png") center center no-repeat;
 }
 
 .git {
 	background: url("../img/git.png") center center no-repeat;
 }
 
+.plus {
+	background: url("../img/plus.png") center center no-repeat;
+}
+
+.dribble {
+	background: url("../img/dribble.png") center center no-repeat;
+}
+
+.linkedin {
+	background: url("../img/linkedin.png") center center no-repeat;
+}
+
 @media screen and (max-width: 768px) {
 	.hero-content div h1 {
 	    font-size: 2em;
+	}
+	nav.navbar li {
+	    font-size: 12px;
 	}
 	.qualities {
 	    flex-direction: column;
@@ -638,14 +666,22 @@ footer p {
     	margin: 0 auto;
 	}
 	.education {
-	padding-bottom: 0;
-	}	
+    	padding-bottom: 0;
+	}
 	.experience ul {
     	text-align: left;
 	}
 	#carousel-b div.carousel-inner {
 	    height: 75%;
 	    width: 100%;
+	}
+	.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right, 
+	.carousel-control .icon-next, 
+	.carousel-control .icon-prev,
+	.carousel-control.right,
+	.carousel-control.left {
+		display: block;
 	}
 	.portfolio {
 		padding: 0;
@@ -688,4 +724,3 @@ footer p {
 		font-size: 0.8em;
 	}
 }
-
