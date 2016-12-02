@@ -624,6 +624,9 @@ footer p {
 	.hero-content div h1 {
 	    font-size: 2em;
 	}
+	nav.navbar li {
+	    font-size: 12px;
+	}
 	.qualities {
 	    flex-direction: column;
 	    align-items: center;
