@@ -195,10 +195,20 @@ color:  #ffffff;
 	background-color: transparent;
 }
 
-.navbar-brand {
+a.navbar-brand {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+}
+
+.navbar-brand img {
+    width: 65%;
+}
+
+/*.navbar-brand {
 	background: url("../img/logo.png") center center no-repeat;
     width: 200px;
-}
+}*/
 
 .affix + .container-fluid {
 	padding-top: 70px;
@@ -673,6 +683,9 @@ footer p {
 	}
 	.navbar-nav {
 		background-color: #252e30;
+	}
+	.navbar-brand img {
+	    width: 50%;
 	}
 	.profile-pic {
 	    display: none;
