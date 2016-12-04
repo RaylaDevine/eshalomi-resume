@@ -684,3 +684,14 @@ footer p {
 	}
 }
 
+@media screen and (max-width: 360px) {
+	a.navbar-brand {
+	    position: relative;
+	     float: none; 
+	     padding: 0; 
+	}
+	.navbar-brand img {
+	    width: 65%; 
+	    padding: 10px 0 10px 0;
+	}
+}
