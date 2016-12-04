@@ -142,6 +142,10 @@ nav.navbar {
 	background-color: #252e30;
 }
 
+.navbar-toggle {
+    z-index: 20;
+}
+
 .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
@@ -161,13 +165,13 @@ color:  #ffffff;
 	background-color: transparent;
 }
 
-a.navbar-brand {
+.logo {
     position: relative;
     float: right;
     padding: 9px 10px;
 }
 
-.navbar-brand img {
+.logo img {
     width: 65%;
 }
 
@@ -649,17 +653,19 @@ footer p {
 	.hero-content div h1 {
 	    font-size: 1.8em;
 	}
+	.container-fluid {
+		display: block;
+	}
 	.navbar-nav {
 		background-color: #252e30;
 	}
-	a.navbar-brand {
+	.logo {
 	    position: relative;
 	     float: none; 
 	     padding: 0; 
 	}
-	.navbar-brand img {
-	    width: 65%; 
-	    padding: 10px 0 10px 0;
+	.logo img { 
+	    padding: 10px 10px 0;
 	}
 	.profile-pic {
 	    display: none;
