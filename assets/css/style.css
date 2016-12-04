@@ -652,8 +652,14 @@ footer p {
 	.navbar-nav {
 		background-color: #252e30;
 	}
+	a.navbar-brand {
+	    position: relative;
+	     float: none; 
+	     padding: 0; 
+	}
 	.navbar-brand img {
-	    width: 50%;
+	    width: 65%; 
+	    padding: 10px 0 10px 0;
 	}
 	.profile-pic {
 	    display: none;
