@@ -587,6 +587,9 @@ footer p {
 	.aff-act {
 	    margin-top: 0;
 	}
+	.profile-pic {
+	    background-position: 20%;
+	}
 	.skills, 
 	.experience, 
 	.education,
