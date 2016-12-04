@@ -86,50 +86,16 @@ button.green {
     width: 80%;
 }
 
-/* --- CAROUSEL A --- */
-#carousel-a.slide {
-    position: relative;
-    height: 100vh;
-}
-#carousel-a.slide .carousel-inner .item {
-    height: 100vh;
-}
-
-#carousel-a ol.carousel-indicators {
-    bottom: 20%;
-    display: flex;
-    flex-direction: column;
-}
-
-#carousel-a ol.carousel-indicators li {
-    align-self: flex-end;
-}
-
-.slide .slides .slide1, 
-.slide .slides .slide2,
-.slide .slides .slide3 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.slide .slides .slide1 {
-  background-image: url("../img/design.jpg"); 
-}
-.slide .slides .slide2 {
-  background-image: url("../img/laptop.jpg");
-}
-.slide .slides .slide3 {
-  background-image: url("../img/purse.jpg");
+/* --- HERO --- */
+.hero {
+	background: url(../img/mirrored_green.png);
+	width: 100%;
+	height: 500px;
 }
 
 .hero-content {
-	position: absolute;
-    width: 100%;
     height: 100%;
     color: #ffffff;
-    text-align: center;
-    z-index: 20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,22 +176,6 @@ a.navbar-brand {
     width: 200px;
 }*/
 
-.affix + .container-fluid {
-	padding-top: 70px;
-}
-
-.affix, 
-.navbar-fixed-top {
-    top: 0;
-    min-width: 100%;
-    background-color: #f8f8f8;
-    opacity: 0.9;
-    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
-    -moz-transition: background .5s ease-in-out, opacity .5s ease;
-    transition: background .5s ease-in-out, opacity .5s ease;
-    height: 50px;
-}
-
 .container-fluid {
     display: flex;
     justify-content: space-around;
@@ -293,9 +243,9 @@ a.navbar-brand {
 }
 
 .profile-pic {
-    background-image: url(../img/profile.jpg);
+    background-image: url(../img/rae-blur.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center left;
     background-repeat: no-repeat;
     width: 33%;
 }
@@ -490,11 +440,13 @@ a.navbar-brand {
 
 /* --- CONTACT --- */
 .contact {
-	background-color:  #252e30;
-	padding: 4em 0;	
-	color:  #919191;
-	display: flex;
-	justify-content: center;
+    background-color: #252e30;
+    padding: 4em 0;
+    color: #919191;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact h1 {
