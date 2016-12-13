@@ -1,3 +1,73 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/** Clearfix **/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+/** end CSS reset **/
+
 body {
 	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
@@ -5,46 +75,65 @@ body {
 
 h1 {
 	color:  #556366;
-	font-size: 1.875em;/* Approximation due to font substitution */
+	font-size: 1.641em;/* Approximation due to font substitution */
 	font-weight: 700;
 	line-height: 24px;/* Approximation due to font substitution */
 	text-transform: uppercase;
-	margin-top: 0;
+	margin: 0 0 10px;
 }
 
 h2 {
 	color:  #556366;
-	font-size: 1.375em;/* Approximation due to font substitution */
+	font-size: 1.2em;/* Approximation due to font substitution */
 	font-weight: 700;
 	line-height: 1.091;/* Approximation due to font substitution */
 	text-transform: uppercase;
+	margin: 20px 0 10px;
 }
 
 h4,
 h5 {
 	color:  #556366;
+	margin: 10px 0;
+}
+
+h4 {
+	font-size: 1.125em;
 }
 
 p {
 	color:  #919191;
-	font-size: 1.125em;/* Approximation due to font substitution */
+	font-size: 0.985em;/* Approximation due to font substitution */
 	font-weight: 400;
 	line-height: 1.667;/* Approximation due to font substitution */
+	margin-bottom: 10px;
 }
 
 .single {
 	padding-bottom: 1em;
 }
 
+.single h4 {
+    font-weight: 700;
+}
+
+.single h5 {
+    font-style: italic;
+}
+
 p.block {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 0.875em;
+	font-size: 0.766em;
 	color: #ffffff;
 	background-color: #2ecc71;
     line-height: 2.5;
     width: 25%;
     height: 30px;
+}
+
+ul {
+	padding-left: 40px;
 }
 
 a,
@@ -59,7 +148,6 @@ a:hover {
 
 button.green {
 	color:  #2ecc71;
-	font-size: 1.125em;
 	font-weight: 700;
 	text-align: center;
 	border-style: solid;
@@ -371,7 +459,7 @@ color:  #ffffff;
 
 .quote {
 	color:  #ffffff;
-	font-size: 1.3em;
+	font-size: 1.138em;
 	font-weight: 400;
 	line-height: 1.5;
 	font-style: italic;
@@ -589,12 +677,31 @@ footer p {
 	background: url("../img/linkedin.png") center center no-repeat;
 }
 
+@media screen and (max-width: 1024px) {
+	.nav>li>a {
+	    padding: 20px 10px;
+	}
+	#carousel-b div.carousel-inner {
+		height: 85%;
+	}
+	.portfolio {
+		padding: 0;
+		display: block;
+	}
+	.contact {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
 	.hero-content div h1 {
 	    font-size: 2em;
 	}
 	nav.navbar li {
 	    font-size: 12px;
+	}
+	.nav>li>a {
+	    padding: 20px 10px;
 	}
 	.qualities {
 	    flex-direction: column;
@@ -655,10 +762,6 @@ footer p {
 	.carousel-control.left {
 		display: block;
 	}
-	.portfolio {
-		padding: 0;
-		display: block;
-	}
 }
 
 @media screen and (max-width: 480px) {
@@ -697,11 +800,8 @@ footer p {
 	p.block {
     	width: 35%;
 	}
-	#carousel-b div.carousel-inner {
-		height: 85%;
-	}
 	.quote {
-	    font-size: 1em;
+	    font-size: 0.875em;
 	}
 	footer p {
 		font-size: 0.8em;
