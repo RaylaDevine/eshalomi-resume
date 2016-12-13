@@ -720,6 +720,7 @@ footer p {
 	.profile-pic {
 	    background-position: 20%;
 	}
+        .about,
 	.skills, 
 	.experience, 
 	.education,
@@ -745,7 +746,6 @@ footer p {
     	text-align: left;
 	}
 	#carousel-b div.carousel-inner {
-	    height: 75%;
 	    width: 100%;
 	}
 	.carousel-control .glyphicon-chevron-left, 
@@ -768,6 +768,9 @@ footer p {
 	.navbar-nav {
 		background-color: #252e30;
 	}
+        .nav>li>a {
+                padding: 10px 15px;
+        }
 	.logo {
 	    position: relative;
 	     float: none; 
@@ -792,7 +795,7 @@ footer p {
     	width: 90%;
 	}
 	p.block {
-    	width: 35%;
+    	width: 45%;
 	}
 	.quote {
 	    font-size: 0.875em;
